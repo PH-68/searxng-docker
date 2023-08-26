@@ -65,7 +65,7 @@ engines:
     - name: apple maps
       disabled: false
     - name: bing
-      disabled: true
+      disabled: false
     - name: brave
       disabled: true
     - name: duckduckgo
