@@ -23,7 +23,6 @@ server:
     port: 8888
     bind_address: "127.0.0.1"
     # base_url is defined in the SEARXNG_BASE_URL environment variable, see .env and docker-compose.yml
-    secret_key: "ultrakey" # change this!
     limiter: false # can be disabled for a private instance
     default_http_headers:
         X-Content-Type-Options: nosniff
