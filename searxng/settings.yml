@@ -36,7 +36,7 @@ search:
     safe_search: 0
     autocomplete: "google"
     autocomplete_min: 1
-    default_lang:"auto"
+    default_lang: "auto"
     language:
       - zh-TW
       - en-US
