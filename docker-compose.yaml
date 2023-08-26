@@ -27,7 +27,8 @@ services:
       interval: 2m
       timeout: 5s
     environment:
-    - SEARXNG_SECRET=${SEARXNG_SECRET}
+     - SEARXNG_SECRET=${SEARXNG_SECRET}
+     - SEARXNG_URL=${SEARXNG_URL}
     restart: always
 networks:
   searxng:
