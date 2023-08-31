@@ -34,3 +34,6 @@ networks:
   searxng:
     enable_ipv6: true
     driver: bridge
+    ipam:
+      config:
+        - subnet: fe80:ea::/64
