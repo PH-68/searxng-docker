@@ -32,5 +32,5 @@ services:
     restart: always
 networks:
   searxng:
-    ipam:
-      driver: default
+    enable_ipv6: true
+    driver: bridge
