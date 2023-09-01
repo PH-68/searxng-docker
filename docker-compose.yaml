@@ -37,4 +37,4 @@ networks:
     driver: bridge
     ipam:
       config:
-        - subnet: fe80:ea::/64
+        - subnet: fd00:ea::/64
