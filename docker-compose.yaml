@@ -29,6 +29,7 @@ services:
     environment:
      - SEARXNG_SECRET=${SEARXNG_SECRET}
      - SEARXNG_URL=${SEARXNG_URL}
+     - BIND_ADDRESS=:8080
     restart: always
 networks:
   searxng:
